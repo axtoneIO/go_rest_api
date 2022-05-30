@@ -23,6 +23,7 @@ func (app *App) Run() error {
 		log.Print(err)
 		return err
 	}
+	
 	return nil
 }
 
