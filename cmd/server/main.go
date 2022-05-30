@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/axtoneIO/go_rest_api/database"
+	"github.com/axtoneIO/go_rest_api/internal/database"
 	transport_http "github.com/axtoneIO/go_rest_api/internal/transport/http"
 	"github.com/joho/godotenv"
 )
