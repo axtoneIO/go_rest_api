@@ -32,3 +32,13 @@ func NewService(db *gorm.DB) *Service {
 		DB: db,
 	}
 }
+
+// GetComment - retrieves comments by their id from the db
+func (s *Service) GetComment(ID uint)(Comment, error){
+	var comment Comment
+	if result := s.DB.First(&comment,ID); result.Error != nil {
+		return Comment{}, result.Error
+	}
+
+	return comment, nil
+}
