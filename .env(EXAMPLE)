@@ -1,5 +1,5 @@
-DB_USERNAME=
-DB_PASSWORD=
-DB_HOST=
-DB_TABLE=
-DB_PORT=
+DB_USERNAME=oceballos
+DB_PASSWORD=oceballos
+DB_HOST=localhost
+DB_TABLE=postgres
+DB_PORT=5432
